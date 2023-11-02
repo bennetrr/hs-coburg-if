@@ -6,33 +6,33 @@ public class Main {
         System.out.println("Notendurchschnittsermittlung");
         System.out.println("----------------------------");
 
-        var scanner = new Scanner(System.in);
+        try (var scanner = new Scanner(System.in)) {
+            var points = new ArrayList<Integer>();
 
-        var points = new ArrayList<Integer>();
+            while (true) {
+                System.out.print("Bitte Punkte eingeben (q zum auswerten): ");
+                var input = scanner.next();
 
-        while (true) {
-            System.out.print("Bitte Punkte eingeben (q zum auswerten): ");
-            var input = scanner.next();
+                if (input.toLowerCase().contains("q")) {
+                    break;
+                }
 
-            if (input.toLowerCase().contains("q")) {
-                break;
+                var currentPoints = Integer.parseInt(input);
+                if (currentPoints > 100) {
+                    System.out.println("Punkte dürfen nicht größer als 100 sein!");
+                    continue;
+                }
+
+                points.add(currentPoints);
+                System.out.println(gradeFeedback(currentPoints));
+                System.out.println();
             }
 
-            var currentPoints = Integer.parseInt(input);
-            if (currentPoints > 100) {
-                System.out.println("Punkte dürfen nicht größer als 100 sein!");
-                continue;
-            }
+            var avg = points.stream().mapToInt(Integer::intValue).average().orElse(0.0);
 
-            points.add(currentPoints);
-            System.out.println(gradeFeedback(currentPoints));
-            System.out.println();
+            System.out.printf("Punktedurchschnitt: %.2f\n", avg);
+            System.out.printf("Notendurchschnitt: %.2f\n", 6 - (avg / 20));
         }
-
-        var avg = points.stream().mapToInt(Integer::intValue).average().orElse(0.0);
-
-        System.out.printf("Punktedurchschnitt: %.2f\n", avg);
-        System.out.printf("Notendurchschnitt: %.2f\n", 6 - (avg / 20));
     }
 
     private static String gradeFeedback(int points) {
