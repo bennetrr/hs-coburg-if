@@ -5,12 +5,15 @@
       <module fileurl="file://$PROJECT_DIR$/prog1.iml" filepath="$PROJECT_DIR$/prog1.iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorial1/tutorial1.iml" filepath="$PROJECT_DIR$/tutorial1/tutorial1.iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorial2/tutorial2.iml" filepath="$PROJECT_DIR$/tutorial2/tutorial2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/uebungsblatt1/uebung10/uebung10.iml" filepath="$PROJECT_DIR$/uebungsblatt1/uebung10/uebung10.iml" />
-      <module fileurl="file://$PROJECT_DIR$/uebungsblatt2/uebung16/uebung16.iml" filepath="$PROJECT_DIR$/uebungsblatt2/uebung16/uebung16.iml" />
-      <module fileurl="file://$PROJECT_DIR$/uebungsblatt2/uebung2/uebung2.iml" filepath="$PROJECT_DIR$/uebungsblatt2/uebung2/uebung2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/uebungsblatt2/uebung5/uebung5.iml" filepath="$PROJECT_DIR$/uebungsblatt2/uebung5/uebung5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uebungsblatt1/uebung1.10/uebung1.10.iml" filepath="$PROJECT_DIR$/uebungsblatt1/uebung1.10/uebung1.10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uebungsblatt2/uebung2.16/uebung2.16.iml" filepath="$PROJECT_DIR$/uebungsblatt2/uebung2.16/uebung2.16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uebungsblatt2/uebung2.2/uebung2.2.iml" filepath="$PROJECT_DIR$/uebungsblatt2/uebung2.2/uebung2.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uebungsblatt2/uebung2.5/uebung2.5.iml" filepath="$PROJECT_DIR$/uebungsblatt2/uebung2.5/uebung2.5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uebungsblatt3/uebung3.18/uebung3.18.iml" filepath="$PROJECT_DIR$/uebungsblatt3/uebung3.18/uebung3.18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uebungsblatt3/uebung3.2/uebung3.2.iml" filepath="$PROJECT_DIR$/uebungsblatt3/uebung3.2/uebung3.2.iml" />
       <module fileurl="file://$PROJECT_DIR$/uebungsblatt1/uebungsblatt1.iml" filepath="$PROJECT_DIR$/uebungsblatt1/uebungsblatt1.iml" />
       <module fileurl="file://$PROJECT_DIR$/uebungsblatt2/uebungsblatt2.iml" filepath="$PROJECT_DIR$/uebungsblatt2/uebungsblatt2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uebungsblatt3/uebungsblatt3.iml" filepath="$PROJECT_DIR$/uebungsblatt3/uebungsblatt3.iml" />
     </modules>
   </component>
 </project>
