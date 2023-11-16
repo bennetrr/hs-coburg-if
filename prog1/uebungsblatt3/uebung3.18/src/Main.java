@@ -1,12 +1,13 @@
 import java.util.Scanner;
 
-class Main {
+class prog {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
-            String satz = sc.nextLine().toLowerCase();
+            String satz = sc.nextLine();
             System.out.println(satz);
+            satz = satz.toLowerCase();
 
             int aCount = 0;
             int eCount = 0;
@@ -35,7 +36,8 @@ class Main {
 
             System.out.println("Beenden (j oder n)");
             String closeResponse = sc.nextLine();
-            if (closeResponse.equals("n")) {
+            System.out.println(closeResponse);
+            if (closeResponse.equals("j")) {
                 break;
             }
         }
